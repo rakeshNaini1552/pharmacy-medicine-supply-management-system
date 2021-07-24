@@ -1,0 +1,73 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="f" uri="http://www.springframework.org/tags/form"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title> Supply Portal</title>
+<link rel="icon" type="image/ico" href="./images/schedule.png" />
+<link rel="stylesheet" type="text/css" href="/style/style.css">
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<style>
+.logo {
+	margin-top: 6px;
+	margin-bottom: 7px;
+	width: 3em;
+	height: 3em;
+	margin-left: 20px;
+}
+
+.heading {
+	color: #343b44;
+	font-size: 2.0em;
+	font-weight: 800;
+	text-align: left;
+	margin-top: 3px;
+	margin-left: 20px;
+}
+
+#logout {
+	display: inline;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+body {
+	background-image: url('/images/schedule.png');
+	background-size: cover;
+}
+</style>
+
+</head>
+<body>
+
+	<div class="">
+		<div class="row" style="background-color: white;">
+
+			<a href="/user/home"><img src="/images/pharmacy.png" class="logo"
+				alt="pharmacy logo"></img></a> <span class="heading">POD2 Pharma
+			</span> <a class="btn btn-danger" id="logout" href="/user/logout">Logout</a>
+
+		</div>
+
+		<div>
+			<nav class="navbar navbar-light bg-dark">
+				<a class="nav-link btn btn-dark ml-5" href="/user/schedule">View
+					Schedule</a> <a class="nav-link btn btn-dark"
+					href="/user/MedicineStockInformation">Check Stock</a> <a
+					class="nav-link btn btn-dark" href="/user/medicineDemand">Place
+					Order</a> <a class="nav-link btn btn-dark"
+					href="/user/showMedicineSupply">Your Orders</a>
+			</nav>
+		</div>
+	</div>
