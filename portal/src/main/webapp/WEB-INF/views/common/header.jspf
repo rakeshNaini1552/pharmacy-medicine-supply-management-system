@@ -55,7 +55,7 @@ body {
 		<div class="row" style="background-color: white;">
 
 			<a href="/user/home"><img src="/images/pharmacy.png" class="logo"
-				alt="pharmacy logo"></img></a> <span class="heading">POD2 Pharma
+				alt="pharmacy logo"></img></a> <span class="heading">ABC Pharma
 			</span> <a class="btn btn-danger" id="logout" href="/user/logout">Logout</a>
 
 		</div>
