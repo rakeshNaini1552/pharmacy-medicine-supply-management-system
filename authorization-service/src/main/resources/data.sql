@@ -1,1 +1,1 @@
-insert into user (userid,password,username) values ('rakesh','pod123','user');
+insert into user (userid,password,username) values ('admin','root','mr');
