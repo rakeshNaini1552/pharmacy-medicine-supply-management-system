@@ -1,4 +1,4 @@
-`insert into medicine_stock values (1, 'disaccharide gentiobiose, dicarboxylic acid crocetin', '2022-09-12', 'Crocin', 200, 'Apollo Pharmacy', 'General');
+insert into medicine_stock values (1, 'disaccharide gentiobiose, dicarboxylic acid crocetin', '2022-09-12', 'Crocin', 200, 'Apollo Pharmacy', 'General');
 insert into medicine_stock values (2, 'Cardenolide glycosides, derivatives', '2023-09-12', 'Digoxin', 300, 'Group Pharmacy', 'Cardiology');
 insert into medicine_stock values (3, 'miscellaneous GI agents', '2021-09-12', 'Ascoril', 1000, 'amarald Pharmacy', 'Gynaecology');
 insert into medicine_stock values (4, 'Colloidal silicon dioxide, croscarmellose sodium, crospovidone, microcrystalline cellulose', '2021-09-12', 'Panif', 500, 'sun Pharmacy', 'Orthopaedics');
